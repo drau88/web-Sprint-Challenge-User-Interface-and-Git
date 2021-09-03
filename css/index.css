@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -88,12 +89,14 @@ header {
 header a{
     /* border: 5px solid black; */
     margin-left: 10%;
-    padding: .5%;
+    /* padding: .5%; */
     text-decoration: none;
     color: black;
 }
 
 header img{
+    padding-left: 3%;
+    /* border: 5px solid black; */
 }
 
 .jumboimage{
@@ -235,4 +238,26 @@ footer nav a {
 
 /* ABOUT INTRO STYLING */
 
-.container
+.aboutblurb{
+    /* border: 5px solid black; */
+    border-bottom: 2px dotted black;
+}
+
+.aboutblurb p{
+    margin-bottom: 1%;
+    padding-left: 1%;
+}
+
+/* MAIN CONTENT STYLING */
+
+.maincontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 5px solid hotpink;
+}
+
+.strategy{
+    border: 2px solid green;
+    width: 50%
+}
