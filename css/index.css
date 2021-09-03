@@ -254,10 +254,33 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 5px solid hotpink;
+    /* border: 5px solid hotpink; */
 }
 
 .strategy{
-    border: 2px solid green;
-    width: 50%
+    /* border: 2px solid green; */
+    margin: 3vh 0;
+    width: 48%;
+    border-bottom: 2px dotted black;
 }
+
+.strategy p{
+    padding: 2%;
+}
+
+.buttons{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+    width: 33%;
+}
+
+/* ABOUT ENDING STYLING */
+.worktogether p{
+    margin-bottom: 3%;
+    /* margin-top: 1%; */
+    padding-left: 3%;
+}
+
