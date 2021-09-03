@@ -68,35 +68,28 @@ p {
 }
 
 /* HEADER STYLING */
+
 header {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     margin-top: 1%;
-    /* border: 5px solid  */
-}
 
-.topcontainer{
-    /* border: 5px solid green; */
 }
 
 .navdiv {
     margin-left: 20px;
     width: 70vh;
-    /* border: 5px solid purple; */
 }
 
 header a{
-    /* border: 5px solid black; */
     margin-left: 10%;
-    /* padding: .5%; */
     text-decoration: none;
     color: black;
 }
 
 header img{
     padding-left: 3%;
-    /* border: 5px solid black; */
 }
 
 .jumboimage{
@@ -239,7 +232,6 @@ footer nav a {
 /* ABOUT INTRO STYLING */
 
 .aboutblurb{
-    /* border: 5px solid black; */
     border-bottom: 2px dotted black;
 }
 
@@ -254,11 +246,9 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* border: 5px solid hotpink; */
 }
 
 .strategy{
-    /* border: 2px solid green; */
     margin: 3vh 0;
     width: 48%;
     border-bottom: 2px dotted black;
@@ -280,7 +270,6 @@ footer nav a {
 /* ABOUT ENDING STYLING */
 .worktogether p{
     margin-bottom: 3%;
-    /* margin-top: 1%; */
     padding-left: 3%;
 }
 
