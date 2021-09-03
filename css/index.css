@@ -66,6 +66,92 @@ p {
     line-height: 1.4;
 }
 
+/* HEADER STYLING */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 1%;
+    /* border: 5px solid  */
+}
+
+.topcontainer{
+    /* border: 5px solid green; */
+}
+
+.navdiv {
+    margin-left: 20px;
+    width: 70vh;
+    /* border: 5px solid purple; */
+}
+
+header a{
+    /* border: 5px solid black; */
+    margin-left: 10%;
+    padding: .5%;
+    text-decoration: none;
+    color: black;
+}
+
+header img{
+}
+
+.jumboimage{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+
+
+
+
+/* BOX COLORING */
+#box1{
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
+}
+
+
+/* EXISTING STYLING */
+
 .container {
     width: 800px;
     margin: 0 auto;
