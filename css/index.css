@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,6 +66,87 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/* HEADER STYLING */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 1%;
+
+}
+
+.navdiv {
+    margin-left: 20px;
+    width: 70vh;
+}
+
+header a{
+    margin-left: 10%;
+    text-decoration: none;
+    color: black;
+}
+
+header img{
+    padding-left: 3%;
+}
+
+.jumboimage{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+
+
+
+
+/* BOX COLORING */
+#box1{
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
+}
+
+
+/* EXISTING STYLING */
 
 .container {
     width: 800px;
@@ -144,3 +226,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ================================ABOUT PAGE STYLING================================ */
+
+/* ABOUT INTRO STYLING */
+
+.aboutblurb{
+    border-bottom: 2px dotted black;
+}
+
+.aboutblurb p{
+    margin-bottom: 1%;
+    padding-left: 1%;
+}
+
+/* MAIN CONTENT STYLING */
+
+.maincontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.strategy{
+    margin: 3vh 0;
+    width: 48%;
+    border-bottom: 2px dotted black;
+}
+
+.strategy p{
+    padding: 2%;
+}
+
+.buttons{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+    width: 33%;
+}
+
+/* ABOUT ENDING STYLING */
+.worktogether p{
+    margin-bottom: 3%;
+    padding-left: 3%;
+}
+
